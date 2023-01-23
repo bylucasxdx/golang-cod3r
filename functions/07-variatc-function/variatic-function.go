@@ -11,6 +11,7 @@ func printApproveds(approveds ...string) {
 }
 
 func main() {
-	approveds := []string{"Lucas", "Clarissa"}
+	name := "Maria"
+	approveds := []string{"Lucas", "Clarissa", name}
 	printApproveds(approveds...)
 }
